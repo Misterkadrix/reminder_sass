@@ -1,13 +1,13 @@
 # reminder_sass
 Pour le téléchargement de bootstrap: 
 
--npm init
+```-npm init```
 
--npm install bootstrap
+```-npm install bootstrap```
 
-Pour le téléchargement de Fontawesome:
+```Pour le téléchargement de Fontawesome:```
 
--npm install --save @fortawesome/fontawesome-free
+```-npm install --save @fortawesome/fontawesome-free```
 
 ---------------------------------------------------
 
@@ -17,23 +17,23 @@ Dans votre fichier app.scss
 
 ```@import "./fonts";```
 
-@import "./variables";
+```@import "./variables";```
 
 //Import de fontawesome
 
-$fa-font-path : "../../node_modules/@fortawesome/fontawesome-free/webfonts";
+```$fa-font-path : "../../node_modules/@fortawesome/fontawesome-free/webfonts";```
 
-@import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+```@import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";```
 
-@import "../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+```@import "../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";```
 
-@import "../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
+```@import "../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";```
 
-@import "../../node_modules/@fortawesome/fontawesome-free/scss/regular.scss";
+```@import "../../node_modules/@fortawesome/fontawesome-free/scss/regular.scss";```
 
 //import de Bootstrap
 
-@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+```@import "../../node_modules/bootstrap/scss/bootstrap.scss";```
 
 ---------------------------------------------------
 
@@ -42,9 +42,9 @@ Dans votre fichier "_variables.scss
 
 //import
 
-@import "../../node_modules/bootstrap/scss/functions";
+```@import "../../node_modules/bootstrap/scss/functions";```
 
-@import "../../node_modules/bootstrap/scss/variables";
+```@import "../../node_modules/bootstrap/scss/variables";```
 
 //* Création de variable SASS
 
