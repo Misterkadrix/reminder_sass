@@ -1,13 +1,16 @@
 # reminder_sass
 Pour le téléchargement de bootstrap: 
+```
+-npm init
 
-```-npm init```
+-npm install bootstrap
+```
 
-```-npm install bootstrap```
 
-```Pour le téléchargement de Fontawesome:```
+Pour le téléchargement de Fontawesome:
 
 ```-npm install --save @fortawesome/fontawesome-free```
+
 
 ---------------------------------------------------
 
