@@ -1,0 +1,17 @@
+@import "./fonts";
+@import "./variables";
+
+// FontAwesome
+$fa-font-path : "../../node_modules/@fortawesome/fontawesome-free/webfonts";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/regular.scss";
+
+// Bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+// Tout les modules apparaissent après bootstrap ou n'importe quel autre framework.
+// Modules
+@import "./modules/section";
+@import "./modules/section1";
+@import "./modules/section2";
