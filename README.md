@@ -1,15 +1,22 @@
 # reminder_sass
 Pour le téléchargement de bootstrap: 
--npm init 
+
+-npm init
+
 -npm install bootstrap
+
 Pour le téléchargement de Fontawesome:
+
 -npm install --save @fortawesome/fontawesome-free
+
 ---------------------------------------------------
+
 Dans votre fichier app.scss
 
 // Les imports classiques
 
 ```@import "./fonts";```
+
 @import "./variables";
 
 //Import de fontawesome
