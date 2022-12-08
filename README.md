@@ -45,7 +45,7 @@ Dans votre fichier "_variables.scss
 ```@import "../../node_modules/bootstrap/scss/functions";```
 
 ```@import "../../node_modules/bootstrap/scss/variables";```
-
+```
 //* Création de variable SASS
 
 $couleurRouge : #f71b09;
@@ -69,7 +69,7 @@ $couleur-perso : (
 );
 
 $theme-colors : map-merge($theme-colors , $couleur-perso);
-
+```
 ----------------------------------------------------
 
 On oublie pas dans son index.html le script js de bootstrap
