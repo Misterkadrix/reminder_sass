@@ -8,47 +8,49 @@ Pour le téléchargement de bootstrap:
 
 
 Pour le téléchargement de Fontawesome:
-
-```-npm install --save @fortawesome/fontawesome-free```
+```
+-npm install --save @fortawesome/fontawesome-free
+```
 
 
 ---------------------------------------------------
 
-Dans votre fichier app.scss
-
+```Dans votre fichier app.scss```
+```
 // Les imports classiques
 
-```@import "./fonts";```
+@import "./fonts";
 
-```@import "./variables";```
+@import "./variables";
 
 //Import de fontawesome
 
-```$fa-font-path : "../../node_modules/@fortawesome/fontawesome-free/webfonts";```
+$fa-font-path : "../../node_modules/@fortawesome/fontawesome-free/webfonts";
 
-```@import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";```
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
 
-```@import "../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";```
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
 
-```@import "../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";```
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
 
-```@import "../../node_modules/@fortawesome/fontawesome-free/scss/regular.scss";```
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/regular.scss";
 
 //import de Bootstrap
 
-```@import "../../node_modules/bootstrap/scss/bootstrap.scss";```
-
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+```
 ---------------------------------------------------
 
 
-Dans votre fichier "_variables.scss
+```Dans votre fichier "_variables.scss```
+```
 
 //import
 
-```@import "../../node_modules/bootstrap/scss/functions";```
+@import "../../node_modules/bootstrap/scss/functions";
 
-```@import "../../node_modules/bootstrap/scss/variables";```
-```
+@import "../../node_modules/bootstrap/scss/variables";
+
 //* Création de variable SASS
 
 $couleurRouge : #f71b09;
@@ -75,6 +77,8 @@ $theme-colors : map-merge($theme-colors , $couleur-perso);
 ```
 ----------------------------------------------------
 
-On oublie pas dans son index.html le script js de bootstrap
+```On oublie pas dans son index.html le script js de bootstrap```
 
+```
 <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+```
