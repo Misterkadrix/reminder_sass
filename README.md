@@ -1,3 +1,8 @@
+# TIPS avant de commencer:
+
+Lors d'un merge eviter d'etre sur sass et scss... choissisez l'un ou l'autre pour eviter tout type de conflit.
+
+--------------------------------------------------
 # reminder_sass
 Pour le téléchargement de bootstrap: 
 ```
